@@ -1,0 +1,15 @@
+.logo-link {
+    display: block;
+    text-align: center;
+}
+
+.menu a:link .menu a:visited {
+color: #fae173;
+}
+
+#herobanner {
+    width: 100%;
+    background-image: url(teton-river.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+}
