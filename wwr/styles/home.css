@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-.menu a:link .menu a:visited {
+.menu a, .menu a:visited {
 color: #fae173;
 }
 
@@ -12,4 +12,8 @@ color: #fae173;
     background-image: url(teton-river.webp);
     height: 500px;
     background-repeat: no-repeat;
+}
+
+body {
+    background-color: green;
 }
