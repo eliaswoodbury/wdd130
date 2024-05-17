@@ -1,19 +1,30 @@
+/* Here is my body */
+body {
+    background-color: #78C5D7;
+    text-align: center;
+    margin: 0;
+}
+
 .logo-link {
     display: block;
     text-align: center;
 }
 
+/* Here is my nav */
 .menu a, .menu a:visited {
-color: #fae173;
+    color: #fae173;
 }
 
-#herobanner {
+.menu ul {
+    list-style-type: none;
+}
+
+/* Here is my Hero Banner*/
+#hero-banner img {
     width: 100%;
-    background-image: url(teton-river.webp);
-    height: 500px;
-    background-repeat: no-repeat;
 }
 
-body {
-    background-color: #78C5D7;
-}
+
+
+
+

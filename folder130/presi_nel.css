@@ -1,0 +1,63 @@
+body{background-color: #5da1d7;
+    text-align: center;
+}
+
+/* Setting white-text to white */
+.white-text {
+    color: white;
+}
+
+/* Setting boldparagraph to bold */
+.boldparagraph {
+    font-weight:bold ;
+}
+
+/* Setting h2 to thinner font-weight */
+h2{
+    font-weight: 350
+}
+
+/* Setting both of my fonts */
+.normal-text{
+    font-family:'Roboto';
+}
+
+.fancy-text{
+    font-family: serif;
+}
+
+/* Aligning list to the left */
+ol{
+    text-align: left;
+}
+
+/* Margins */
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* font sizes */
+h1{font-size: 3em;}
+h2{font-size: 4em;}
+h3{}
+h4{}
+p, ol{font-size: 1.5em}
+
+/* line spacing */
+ol{
+    line-height: 200%;
+}
+p{
+    line-height: 10%;
+}
+
+/* image dimension */
+img{
+    width: 40%;
+}
+
+/* h1 hover */
+h1:hover{
+    color: #000;
+}
