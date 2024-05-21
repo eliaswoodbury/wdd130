@@ -1,22 +1,16 @@
 /* Here is my body */
 body {
     background-color: #78C5D7;
-    text-align: center;
     margin: 0;
 }
 
 .logo-link {
     display: block;
-    text-align: center;
 }
 
 /* Here is my nav */
 .menu a, .menu a:visited {
-    color: #fae173;
-}
-
-.menu ul {
-    list-style-type: none;
+    color: #FFFFFF;
 }
 
 /* Here is my Hero Banner*/
@@ -24,7 +18,104 @@ body {
     width: 100%;
 }
 
+/* Max Width and Margins */
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+
+/* centering text */
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section{
+    text-align: center;
+}
+
+/* background for cards */
+
+#background{
+    height: 725px;
+}
+
+/* backgrounds for texts and text color */
+header{
+    background-color: #134266;
+}
+.menu a:hover{
+    background-color: #fae173;
+    color: #134266;
+}
+
+.book, .join{
+    background-color: #fae173;
+    color: #134266;
+}
+
+.book:hover, .join:hover{
+    background-color: #134266;
+    color:#FFFFFF
+}
+
+.msg{
+    background-color: #ffffff;
+}
+
+footer{
+    background-color: #134266;
+}
 
 
+/* colors */
+.main a, .main a:visited:hover{
+    color: #78C5D7
+}
 
+.msg h2 {
+color: #134266;
+}
 
+.msg p{
+color: #134266;
+}
+
+footer{
+color: #FFFFFF;
+font-size: 1.2em;
+text-decoration: underline;
+}
+
+footer a{
+color: #FFFFFF;
+}
+
+footer a:hover{
+color: #fae173;
+}
+
+/* image widths */
+.logo-link img{
+    width: 80px
+}
+.card-img{
+    width: 25em;
+}
+
+/* formatting */
+nav a{
+    text-decoration: none;
+}
+
+.book, .join{
+    text-decoration: none
+}
+
+footer a{
+    text-decoration: none
+}
