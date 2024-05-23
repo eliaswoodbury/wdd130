@@ -72,7 +72,7 @@ footer{
 }
 
 
-/* colors */
+/* text colors */
 .main a, .main a:visited:hover{
     color: #78C5D7
 }
@@ -88,15 +88,17 @@ color: #134266;
 footer{
 color: #FFFFFF;
 font-size: 1.2em;
-text-decoration: underline;
 }
 
 footer a{
 color: #FFFFFF;
+
+    text-decoration: none;
 }
 
 footer a:hover{
 color: #fae173;
+text-decoration: underline;
 }
 
 /* image widths */
@@ -113,9 +115,5 @@ nav a{
 }
 
 .book, .join{
-    text-decoration: none
-}
-
-footer a{
     text-decoration: none
 }
