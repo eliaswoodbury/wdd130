@@ -6,20 +6,24 @@ body {
     padding: 0;
 }
 
-#header-bar {
+#header-bar img{
     width: 100%;
     display: flex;
 }
 
 .circle {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 1000px;
+    width: 50%;
+    border: 15px solid #444444;
 }
 
 .display-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 1px;
+    padding: 40px;
 }
