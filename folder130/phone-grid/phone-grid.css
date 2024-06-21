@@ -1,0 +1,24 @@
+body {
+    width: 360px;
+    height: 640px;
+    background: white;
+}
+
+img { 
+    width: 100%;
+}
+
+h4 {
+    text-align: center;
+    font-size: smaller;
+    color: rgb(73, 73, 187);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
