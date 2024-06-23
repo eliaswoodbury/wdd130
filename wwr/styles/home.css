@@ -279,3 +279,25 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+
+
+
+
+/* CSS SPECIFIC TO FAQ.HTML */
+
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#faq-banner {
+    grid-column: 1/4;
+    grid-row: 1/3;
+}
+
+#faq-banner {
+    width: 1000px;
+    height: 10px;
+}
+
