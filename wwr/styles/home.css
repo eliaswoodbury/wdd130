@@ -259,7 +259,7 @@ footer .social img {
 #msg1 {
     grid-column: 2/3;
     grid-row: 2/3;
-    line-height: 2em;
+    line-height: 3.0em;
     color: #ffffff;
 }
 
@@ -283,7 +283,7 @@ footer .social img {
     color: #134266;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     text-align: center;
-    line-height: 2em;
+    line-height: 2.5em;
 }
 
 #faq-text h3{
