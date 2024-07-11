@@ -4,16 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutor Pops</title>
-    <link rel="stylesheet" href="site-plan-tutor-pops.css">
+    <link rel="stylesheet" href="tutor-pops.css">
 </head>
 <body>
     <header>
+    <nav id="nav-left">
+        <a href="chemistry.html">Chemistry</a>
+        <a href="biology.html">Biology</a>
+    </nav>
         <a href="tutor-pops.html">
-            <img src="images/tutorpopslogo.png" alt="Tutor Pops Logo">
+            <img id="logo" src="images/tutorpopslogo.png" alt="Tutor Pops Logo">
         </a>
-        <nav>
-            <a href="chemistry.html">Chemistry</a>
-            <a href="biology.html">Biology</a>
+        <nav id="nav-right">
             <a href="schedule.html">Schedule Appointment</a>
             <a href="faq.html">FAQ</a>
         </nav>
@@ -21,11 +23,11 @@
     <main>
         <div class="home-card">
             <section id="bio-home-card">
-                <a href="biology.html"></a><img src="images/dna.jpg" alt="Image of Blue and Pink DNA Model">
+                <a href="biology.html"><img src="images/dna.jpg" alt="Image of Blue and Pink DNA Model"></a>
                 <h1>Biology</h1>
             </section>
             <section id="chem-home-card">
-                <a href="chemistry.html"></a><img src="images/chem.jpg" alt="Image of Glass Burretes and Beakers">
+                <a href="chemistry.html"><img src="images/chem.jpg" alt="Image of Glass Burretes and Beakers"></a>
                 <h1>Chemistry</h1>
             </section>
         </div>
@@ -33,27 +35,34 @@
             <a href="about-me.html">
                 <img src="images/tutorphoto.jpg" alt="Elias Woodbury AKA Tutor Pops tutoring">
             </a>
-            <h2>About Me</h2>
-            <p>
-                Hey kids it's Ya Pops: AKA Elias Woodbury. I am currently a student at BYUI majoring in computer science with an emphasis in machine learning (Artificial Intelligence).&nbsp;
-                While I am studying computer science, my plan is to go to Dental School and hopefully specialize in Oral Surgery. Because of that, I have taken many Biology and Chemistry classes,&nbsp;
-                and saw an oppurtunity to hone my skills while offering some help and resources to the kids that come after me. When I was kid I learned everything from my dad (He's the best).&nbsp;
-                Now I don't get to see my dad as much, but I still remember Christ saying, "The Son can do nothing of himself, but what he seeth the Father do: for what things soever he doeth, these also doeth the Son likewise." (John 5:19)&nbsp;
-                As I have gone to tutoring and stretched for success, I have grown more and more grateful for those who came before me and turned back to teach me. I consider them forefathers to my success&nbsp;
-                I only hope that like those who came before me, I can turn around and offer help to those who come next. Everything on here is free. &nbsp;
-                If you need help or find someone in need of help, schedule a tutoring appointment through BYUI in the link below. And don't forget to tell 'em you learned it from Ya Pops!
-            </p>
-            <a href="https://www.byui.edu/student-guide/tutoring-center"></a><p>Tutoring Center</p>
+            <article>
+                <h2>About Me</h2>
+                <p>
+                    Hey kids it's Ya Pops: AKA Elias Woodbury. I am currently a student at BYUI majoring in computer science with an emphasis in machine learning (Artificial Intelligence).
+                    While I am studying computer science, my plan is to go to Dental School and hopefully specialize in Oral Surgery. Because of that, I have taken many Biology and Chemistry classes,
+                    and saw an oppurtunity to hone my skills while offering some help and resources to the kids that come after me. When I was kid I learned everything from my dad (He's the best).
+                    Now I don't get to see my dad as much, but I still remember Christ saying, 
+                </p>
+                <p>    
+                    "The Son can do nothing of himself, but what he seeth the Father do: for what things soever he doeth, these also doeth the Son likewise." (John 5:19)&nbsp;
+                    As I have gone to tutoring and stretched for success, I have grown more and more grateful for those who came before me and turned back to teach me. I consider them forefathers to my success
+                    I only hope that like those who came before me, I can turn around and offer help to those who come next. Everything on here is free.
+                    If you need help or find someone in need of help, schedule a tutoring appointment through BYUI in the link below. And don't forget to tell 'em you learned it from Ya Pops!
+                </p>
+            </article>
         </div>
+        <a href="https://www.byui.edu/student-guide/tutoring-center">
+            <p>Tutoring Center</p>
+        </a>
         <div id="calendar">
             <h1>Schedule</h1>
-            <img src="images/chem2.jpg" alt="">
+            <img id="calendar-img" src="images/chem2.jpg" alt="Replacement Photo For Calender">
         </div>
     </main>
     <footer>
-        <p>Tutor Pops &copy; 2024 - Elias Woodbury</p>
-        <p><a href="site-plan-tutor-pops.html">Site Plan</a></p>
-        <p><a href="schedule.html">Schedule</a></p>
+        <h5>Tutor Pops &copy; 2024 - Elias Woodbury</h5>
+        <h5><a class="button-box" href="site-plan-tutor-pops.html">Site Plan</a></h5>
+        <h5><a class="button-box" href="schedule.html">Schedule</a></h5>  
         <div class="social">
             <a href="https://facebook.com">
                 <img src="images/facebook.png" alt="fb icon">
